@@ -71,6 +71,9 @@ jobs:
     - name: Package client
       run: dotnet run --project Content.Packaging client --no-wipe-release
 
+    - name: Update server rules
+      run: updaterules.py
+
     - name: Publish version
       run: Tools/publish_multi_request.py
       env:
