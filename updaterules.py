@@ -3,7 +3,7 @@ import json
 import os
 
 URL = "http://localhost/goobrules/rules.json"
-OUTPUT_FILE = "Resources\ServerInfo\Guidebook\ServerRules\\ServerRules.xml"
+OUTPUT_FILE = "Resources\\ServerInfo\\Guidebook\\ServerRules\\ServerRules.xml"
 
 try:
     print(f"Fetching JSON from {URL}...")
